@@ -1,0 +1,205 @@
+.appContainer {
+	background-color: rgb(99 0 2);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	color: white;
+	text-align: center;
+}
+
+.appContainer .taylor {
+	width: 600px;
+	height: auto;
+	margin-bottom: 3em;
+	border-radius: 1rem;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* .appContainer h1 {
+	font-size: 4.5rem;
+	text-transform: uppercase;
+	font-weight: bolder;
+	color: white;
+	font-family: "Sour Gummy";
+} */
+
+/* .appContainer h2 {
+	margin-bottom: 2em;
+  text-transform: uppercase;
+	font-weight: 300;
+  text-transform: uppercase;
+} */
+
+.appContainer .question h3 {
+	font-size: 2rem;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+.question {
+	display: flex;
+	gap: 0;
+	flex-direction: column;
+}
+
+.questionRow {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.questionRow img {
+	width: auto;
+	height: 45px;
+	margin-right: 10px;
+}
+
+form {
+	display: flex;
+	gap: 1em;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+form input {
+	padding: 1em 1.5em;
+	border: 2px solid white;
+	background: none;
+	outline: none;
+	border-radius: 1rem;
+	color: white;
+	font-weight: 300;
+	font-size: 1rem;
+}
+
+form input::placeholder {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+form button {
+	padding: 1em 1.5em;
+	width: 120px;
+	border-radius: 1rem;
+	outline: none;
+	border: none;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: rgb(176, 25, 71);
+	cursor: pointer;
+	transition: all 0.2s ease;
+	border: 2px solid white;
+}
+
+form button:hover {
+	background: none;
+	border: 2px solid white;
+	color: white;
+}
+
+form button:active {
+	background: none;
+	border: 2px solid white;
+	color: rgb(175 25 71);
+	background-color: white;
+}
+
+.wrongContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(99 0 2);
+}
+
+.rightContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(99 0 2);
+}
+
+.wrongImg,
+.rightImg {
+	width: auto;
+	height: 350px;
+	margin-top: 1em;
+}
+
+.feedback {
+	display: flex;
+	gap: 0;
+	flex-direction: column;
+	color: white;
+}
+
+.feedbackRow {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.feedbackRow h3 {
+	font-size: 3rem;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.feedbackRow .right {
+	font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: 100%;
+  max-width: 700px;
+}
+
+.feedbackRow img {
+	width: auto;
+	height: 45px;
+	margin-right: 10px;
+}
+
+.wrongContainer a,
+.rightContainer a {
+	padding: 1em 1.5em;
+	width: 120px;
+	border-radius: 1rem;
+	outline: none;
+	border: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: rgb(176, 25, 71);
+	cursor: pointer;
+	transition: all 0.2s ease;
+	margin-top: 1em;
+	border: 2px solid white;
+	background-color: white;
+	text-align: center;
+}
+
+.wrongContainer a:hover,
+.rightContainer a:hover {
+	background: none;
+	color: white;
+}
+
+.wrongContainer a:active,
+.rightContainer a:active {
+	background: none;
+	color: rgb(175 25 71);
+	background-color: white;
+}
+
+.wrongContainer a,
+.rightContainer a {
+	text-decoration: none;
+	color: rgb(175, 25, 71);
+	transition: all 0.2s ease;
+}
